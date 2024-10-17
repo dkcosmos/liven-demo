@@ -43,9 +43,9 @@ function App() {
 
   const renderCards = () => (
     <div className="cards-grid">
-      {
-        currentCardsData.map((cardData) => <Card data={cardData} onCardClick={goToAppPage} />)
-      }
+      {currentCardsData.map((cardData, i) => (
+        <Card key={`card-${i}`} data={cardData} onCardClick={goToAppPage} />
+      ))}
     </div>
   );
 
