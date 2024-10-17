@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/liven-demo/static/css/main.331104c5.css",
+    "main.js": "/liven-demo/static/js/main.45735a5a.js",
+    "static/media/b-icon.png": "/liven-demo/static/media/b-icon.28ee7e174e2d85441cc4.png",
+    "static/media/liven-logo.png": "/liven-demo/static/media/liven-logo.c13cfa93d30f28c15793.png",
+    "index.html": "/liven-demo/index.html",
+    "main.331104c5.css.map": "/liven-demo/static/css/main.331104c5.css.map",
+    "main.45735a5a.js.map": "/liven-demo/static/js/main.45735a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.331104c5.css",
+    "static/js/main.45735a5a.js"
+  ]
+}
