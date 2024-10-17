@@ -1,0 +1,58 @@
+@import "../../App.scss";
+
+.card-wrapper {
+  $greenText: #73b9af;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(125, 125, 125, 0.5);
+  padding: 1rem 2.5rem;
+
+  .text-green {
+    text-align: end;
+    color: $greenText;
+  }
+  .label-sm {
+    font-size: 0.7rem;
+  }
+  .price-tag {
+    font-size: 2rem;
+  }
+  .b-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .liven-logo {
+    height: 0.8rem;
+  }
+  .tag {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #fff;
+    background-color: $bgPrimary;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -9px;
+    border-radius: 16px;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.7rem;
+  }
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+  border-color: #d1d1d1 !important;
+}
+
+.form-check-input:checked {
+  background-color: $bgPrimary;
+  border-color: $bgPrimary;
+}
