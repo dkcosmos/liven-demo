@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import Header from "./components/Header/Header";
@@ -13,7 +13,9 @@ function App() {
 
   const onToggleBtnChange = (e) => setIsViewingGiftCards(e.target.checked); 
 
-  const goToAppPage = () => window.open(APP_PAGE_URL, '_blank');
+  const goToAppPage = useCallback(() => {
+    window.open(APP_PAGE_URL, '_blank');
+  }, []); 
 
   const renderMessage = () => (
     <div className="app-sub-header">
